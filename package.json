@@ -1,0 +1,40 @@
+{
+  "name": "simjdeprintqueue",
+  "version": "1.0.0",
+  "description": "Simulate a JDE Production Print Queue",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thatgreenguy/simjdeprintqueue.git"
+  },
+  "keywords": [
+    "Simulate",
+    "Production",
+    "JDE",
+    "Print",
+    "Queue"
+  ],
+  "author": "thatgreenguy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thatgreenguy/simjdeprintqueue/issues"
+  },
+  "homepage": "https://github.com/thatgreenguy/simjdeprintqueue#readme",
+  "dependencies": {
+    "config": "1.30.0",
+    "fs-extra": "5.0.0"
+  },
+  "devDependencies": {
+    "babel-preset-latest": "^6",
+    "eslint": "^4.18.0",
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^6.0.0",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
+}

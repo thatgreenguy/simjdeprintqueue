@@ -1,0 +1,24 @@
+{
+  "simdata": {
+    "paths": {
+      "source": "./samples",
+      "target": "./printqueue"
+    },
+    "files": {
+      "minimum": 100,
+      "hourly": 120
+    },
+    "jobnbr": 810100,
+    "separator": "_",
+    "random": {
+      "ageMonths": 3,
+      "pdf": 75,
+      "csv": 23,
+      "log": 2
+    },
+    "names": {
+      "objects": ["R564220", "R5542037", "R5542565", "R0901", "R5542035"],
+      "versions": ["ZJDE0001", "UKZ0001", "UKX001", "UKX002", "NIGHT01", "NIGHT02"]
+    }
+  }
+}
