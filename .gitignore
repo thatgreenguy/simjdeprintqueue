@@ -57,3 +57,5 @@ typings/
 # dotenv environment variables file
 .env
 
+# printqueue - this is created by the program with multiple pseudo job files
+printqueue/

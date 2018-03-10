@@ -7,9 +7,7 @@ const log = require('./log')
 const CFG = config.get('CFG')
 
 function genRndInt (max) {
-  console.log(max)
-  let r = Math.floor(Math.random() * max)
-  return r
+  return Math.floor(Math.random() * max)
 }
 
 function crtFakeJdeJob (n) {
@@ -17,7 +15,6 @@ function crtFakeJdeJob (n) {
   let v = CFG.JOB.VER[genRndInt(CFG.JOB.VER.length - 1)]
   let e = CFG.JOB.EXT[genRndInt(CFG.JOB.EXT.length - 1)]
   let s = CFG.JOB.SEP
-  console.log(e)
   return {
     'fakeJdeJob': `${o}${s}${v}${s}${n}${s}${e}`,
     'ext': e.toLowerCase()
