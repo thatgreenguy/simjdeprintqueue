@@ -61,4 +61,4 @@ typings/
 printqueue/
 
 # samples - specifically DO NOT .gitignore this samples directory - need all sample files even *.log
-!samples/
+!/samples/**
