@@ -1,24 +1,25 @@
 {
-  "simdata": {
-    "paths": {
-      "source": "./samples",
-      "target": "./printqueue"
+  "CFG": {
+    "LOG": {
+      "LEVEL": "info",
+      "FILE": "./logs/app.log"
     },
-    "files": {
-      "minimum": 100,
-      "hourly": 120
+    "PATH": {
+      "BASE": ".",
+      "SRC": "/samples",
+      "TGT": "/printqueue"
     },
-    "jobnbr": 810100,
-    "separator": "_",
-    "random": {
-      "ageMonths": 3,
-      "pdf": 75,
-      "csv": 23,
-      "log": 2
+    "JOB": {
+      "NBR": 810100,
+      "SEP": "_",
+      "MAXAGE": 90,
+      "OBJ": ["R564220", "R5542037", "R5542565", "R0901", "R5542035", "R0101P"],
+      "VER": ["ZJDE0001", "UKZ0001", "UKX001", "UKX002", "NIGHT01", "NIGHT02"],
+      "EXT": ["PDF", "PDF", "PDF", "CSV", "CSV", "LOG"]
     },
-    "names": {
-      "objects": ["R564220", "R5542037", "R5542565", "R0901", "R5542035"],
-      "versions": ["ZJDE0001", "UKZ0001", "UKX001", "UKX002", "NIGHT01", "NIGHT02"]
+    "VOLUME": {
+      "MIN": 100,
+      "HOURLY": 120
     }
   }
 }
