@@ -57,5 +57,8 @@ typings/
 # dotenv environment variables file
 .env
 
-# printqueue - this is created by the program with multiple pseudo job files
+# printqueue - this is created by the program with multiple pseudo job files so exclude
 printqueue/
+
+# samples - specifically DO NOT .gitignore this samples directory - need all sample files even *.log
+!samples/
