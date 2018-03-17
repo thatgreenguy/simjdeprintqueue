@@ -1,5 +1,8 @@
 {
   "CFG": {
+    "APP": {
+      "NAME": "SimJdePrtQ"
+    },
     "LOG": {
       "LEVEL": "info",
       "FILE": "./logs/app.log"
