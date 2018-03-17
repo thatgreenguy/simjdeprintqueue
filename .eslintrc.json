@@ -8,5 +8,8 @@
     "extends": "standard",
     "parserOptions": {
         "sourceType": "module"
+    },
+    "plugins": {
+      "jsdoc"
     }
 }
